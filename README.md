@@ -2,13 +2,15 @@
 
 
 (Expected the following details in the report )
-## Project Title: Stock Price Prediction
+## Project Title: 
+### Stock Price Prediction
 
 ## Project Description 
 To develop a Recurrent Neural Network model for stock price prediction.We aim to
 build a RNN model to predict the stock prices of Google using the dataset provided.
 The dataset has many features, but we will be predicting the "Open" feauture alone.
 We will be using a sequence of 60 readings to predict the 61st reading
+
 ## Algorithm:
 Step 1:
 Read the csv file and create the Data frame using pandas.
@@ -25,6 +27,7 @@ Follow the same steps to create the Test data. But make sure you combine the
 training data with the test data.
 Step 6:
 Make Predictions and plot the graph with the Actual and Predicted values.
+
 ## Program:
 import numpy as np
 import matplotlib.pyplot as plt
@@ -78,17 +81,16 @@ plt.legend()
 plt.show()
 from sklearn.metrics import mean_squared_error as mse
 mse(y_test,predicted_stock_price)
-```
+
 ## Output:
 
 ![image](https://user-images.githubusercontent.com/115688029/205429981-ab3fb9cd-5992-46f9-bb6d-2b0e50a8c8bb.png)
-
-```
 
 ## Advantage :
 The stock price prediction has extra advantages for novice traders as they are the kind of
 traders who are more prone to making mistakes and facing severe losses in the market
 compared to experienced traders. You can better analyse and predict the stock market by
 gaining a complete understanding of the same.
+
 ## Result:
 Thus,the program has been implemented successfully and the output was obtained.
