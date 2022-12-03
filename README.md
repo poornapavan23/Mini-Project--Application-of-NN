@@ -1,9 +1,6 @@
 # Mini-Project--Application-of-NN
 
-
-(Expected the following details in the report )
-## Project Title: 
-### Stock Price Prediction
+## Project Title: ### Stock Price Prediction
 
 ## Project Description 
 To develop a Recurrent Neural Network model for stock price prediction.We aim to
@@ -12,6 +9,7 @@ The dataset has many features, but we will be predicting the "Open" feauture alo
 We will be using a sequence of 60 readings to predict the 61st reading
 
 ## Algorithm:
+```
 Step 1:
 Read the csv file and create the Data frame using pandas.
 Step 2:
@@ -27,8 +25,9 @@ Follow the same steps to create the Test data. But make sure you combine the
 training data with the test data.
 Step 6:
 Make Predictions and plot the graph with the Actual and Predicted values.
-
+```
 ## Program:
+```
 import numpy as np
 import matplotlib.pyplot as plt
 import pandas as pd
@@ -81,6 +80,7 @@ plt.legend()
 plt.show()
 from sklearn.metrics import mean_squared_error as mse
 mse(y_test,predicted_stock_price)
+```
 
 ## Output:
 
