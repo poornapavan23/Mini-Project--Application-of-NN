@@ -1,6 +1,6 @@
 # Mini-Project--Application-of-NN
 
-## Project Title: ### Stock Price Prediction
+## Project Title : Stock Price Prediction
 
 ## Project Description 
 To develop a Recurrent Neural Network model for stock price prediction.We aim to
